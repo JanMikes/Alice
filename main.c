@@ -3,7 +3,7 @@
 int main()
 {
     int a;
-    float b;
+    float b, vysledek;
     
     printf("Zadej cele cislo: ");
     scanf("%d", &a);
@@ -13,8 +13,11 @@ int main()
     
     printf("Tvoje cele cislo je: %d\n", a);
     printf("Tvoje desetinne cislo je: %.2f\n", b);
+    
+    vysledek = a/b;
 
-    printf("Vydelene cislo je: %.2f\n", a/b);
+    printf("Vydelene cislo je: %.2f\n", vysledek);
+    printf("Semilogaritmicky tvar vysledku je: %e\n", vysledek);
     
     return 0;
 }
