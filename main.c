@@ -1,9 +1,12 @@
-
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main()
+{
+    int a;
     
-    printf("Hello, World!\n");
+    printf("Zadej cislo: ");
     
-    return 0;
+    scanf("%d", &a);
+    
+    printf("Tvoje cislo je: %d\n", a);
 }
