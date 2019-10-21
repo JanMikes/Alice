@@ -3,10 +3,15 @@
 int main()
 {
     int a;
+    float b;
     
-    printf("Zadej cislo: ");
-    
+    printf("Zadej cele cislo: ");
     scanf("%d", &a);
     
-    printf("Tvoje cislo je: %d\n", a);
+    
+    printf("Zadej desetinne cislo: ");
+    scanf("%f", &b);
+    
+    printf("Tvoje cele cislo je: %d\n", a);
+    printf("Tvoje desetinne cislo je: %.2f\n", b);
 }
